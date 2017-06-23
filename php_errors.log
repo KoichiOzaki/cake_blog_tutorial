@@ -1,0 +1,809 @@
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/blog_tutorial/src/Model/Table/BookmarksTable.php on line 95
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP Stack trace:
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:121
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP  15. call_user_func_array:{/home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP  16. App\Controller\BookmarksController->tags() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP  17. Cake\Controller\Controller->__get() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:124
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP  18. Cake\Controller\Controller->loadModel() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:350
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP  19. Cake\ORM\Locator\TableLocator->get() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php:112
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP  20. Cake\ORM\Locator\TableLocator->_getClassName() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:156
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP  21. Cake\Core\App::className() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:201
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP  22. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:64
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP  23. class_exists() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP  24. spl_autoload_call() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP  25. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 14:55:02 Asia/Tokyo] PHP  26. Composer\Autoload\includeFile() /home/ubuntu/workspace/blog_tutorial/vendor/composer/ClassLoader.php:322
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP Parse error:  syntax error, unexpected 'tags' (T_STRING), expecting ']' in /home/ubuntu/workspace/blog_tutorial/src/Model/Table/BookmarksTable.php on line 102
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP Stack trace:
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:121
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP  15. call_user_func_array:{/home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP  16. App\Controller\BookmarksController->tags() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP  17. Cake\Controller\Controller->__get() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:122
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP  18. Cake\Controller\Controller->loadModel() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:350
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP  19. Cake\ORM\Locator\TableLocator->get() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php:112
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP  20. Cake\ORM\Locator\TableLocator->_getClassName() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:156
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP  21. Cake\Core\App::className() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:201
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP  22. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:64
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP  23. class_exists() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP  24. spl_autoload_call() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP  25. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 15:02:44 Asia/Tokyo] PHP  26. Composer\Autoload\includeFile() /home/ubuntu/workspace/blog_tutorial/vendor/composer/ClassLoader.php:322
+[19-Jun-2017 15:05:10 Asia/Tokyo] PHP Fatal error:  Call to a member function first() on a non-object in /home/ubuntu/workspace/blog_tutorial/src/Controller/BookmarksController.php on line 119
+[19-Jun-2017 15:05:10 Asia/Tokyo] PHP Stack trace:
+[19-Jun-2017 15:05:10 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[19-Jun-2017 15:05:10 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[19-Jun-2017 15:05:10 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[19-Jun-2017 15:05:10 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[19-Jun-2017 15:05:10 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 15:05:10 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[19-Jun-2017 15:05:10 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 15:05:10 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[19-Jun-2017 15:05:10 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 15:05:10 Asia/Tokyo] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[19-Jun-2017 15:05:10 Asia/Tokyo] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 15:05:10 Asia/Tokyo] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[19-Jun-2017 15:05:10 Asia/Tokyo] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[19-Jun-2017 15:05:10 Asia/Tokyo] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:121
+[19-Jun-2017 15:05:10 Asia/Tokyo] PHP  15. call_user_func_array:{/home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 15:05:10 Asia/Tokyo] PHP  16. App\Controller\BookmarksController->tags() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/blog_tutorial/src/Controller/BookmarksController.php on line 119
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP Stack trace:
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP  13. Cake\Http\ControllerFactory->create() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:92
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP  14. Cake\Core\App::className() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:70
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP  15. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:64
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP  16. class_exists() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP  17. spl_autoload_call() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP  18. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 15:08:19 Asia/Tokyo] PHP  19. Composer\Autoload\includeFile() /home/ubuntu/workspace/blog_tutorial/vendor/composer/ClassLoader.php:322
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP Parse error:  syntax error, unexpected 'tags' (T_STRING), expecting ']' in /home/ubuntu/workspace/blog_tutorial/src/Model/Table/BookmarksTable.php on line 102
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP Stack trace:
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:121
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP  15. call_user_func_array:{/home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP  16. App\Controller\BookmarksController->tags() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP  17. Cake\Controller\Controller->__get() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:122
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP  18. Cake\Controller\Controller->loadModel() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:350
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP  19. Cake\ORM\Locator\TableLocator->get() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php:112
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP  20. Cake\ORM\Locator\TableLocator->_getClassName() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:156
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP  21. Cake\Core\App::className() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:201
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP  22. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:64
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP  23. class_exists() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP  24. spl_autoload_call() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP  25. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 15:09:02 Asia/Tokyo] PHP  26. Composer\Autoload\includeFile() /home/ubuntu/workspace/blog_tutorial/vendor/composer/ClassLoader.php:322
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/EagerLoader.php on line 328
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP Stack trace:
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:121
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP  15. call_user_func_array:{/home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP  16. App\Controller\BookmarksController->index() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP  17. Cake\Controller\Controller->paginate() /home/ubuntu/workspace/blog_tutorial/src/Controller/BookmarksController.php:49
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP  18. Cake\Controller\Component\PaginatorComponent->paginate() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:713
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP  19. Cake\ORM\Table->find() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php:184
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP  20. Cake\ORM\Table->callFinder() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Table.php:966
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP  21. Cake\ORM\Query->applyOptions() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Table.php:1936
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP  22. Cake\ORM\Query->contain() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Query.php:700
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP  23. Cake\ORM\EagerLoader->contain() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Query.php:366
+[19-Jun-2017 17:19:22 Asia/Tokyo] PHP  24. Cake\ORM\EagerLoader->_reformatContain() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:138
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/EagerLoader.php on line 328
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP Stack trace:
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:121
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP  15. call_user_func_array:{/home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP  16. App\Controller\BookmarksController->index() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP  17. Cake\Controller\Controller->paginate() /home/ubuntu/workspace/blog_tutorial/src/Controller/BookmarksController.php:49
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP  18. Cake\Controller\Component\PaginatorComponent->paginate() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:713
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP  19. Cake\ORM\Table->find() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php:184
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP  20. Cake\ORM\Table->callFinder() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Table.php:966
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP  21. Cake\ORM\Query->applyOptions() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Table.php:1936
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP  22. Cake\ORM\Query->contain() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Query.php:700
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP  23. Cake\ORM\EagerLoader->contain() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Query.php:366
+[19-Jun-2017 17:19:49 Asia/Tokyo] PHP  24. Cake\ORM\EagerLoader->_reformatContain() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:138
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/EagerLoader.php on line 328
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP Stack trace:
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:121
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP  15. call_user_func_array:{/home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP  16. App\Controller\BookmarksController->index() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP  17. Cake\Controller\Controller->paginate() /home/ubuntu/workspace/blog_tutorial/src/Controller/BookmarksController.php:49
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP  18. Cake\Controller\Component\PaginatorComponent->paginate() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:713
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP  19. Cake\ORM\Table->find() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php:184
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP  20. Cake\ORM\Table->callFinder() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Table.php:966
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP  21. Cake\ORM\Query->applyOptions() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Table.php:1936
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP  22. Cake\ORM\Query->contain() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Query.php:700
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP  23. Cake\ORM\EagerLoader->contain() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Query.php:366
+[19-Jun-2017 17:20:06 Asia/Tokyo] PHP  24. Cake\ORM\EagerLoader->_reformatContain() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:138
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/EagerLoader.php on line 328
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP Stack trace:
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:121
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP  15. call_user_func_array:{/home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP  16. App\Controller\BookmarksController->index() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP  17. Cake\Controller\Controller->paginate() /home/ubuntu/workspace/blog_tutorial/src/Controller/BookmarksController.php:49
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP  18. Cake\Controller\Component\PaginatorComponent->paginate() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:713
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP  19. Cake\ORM\Table->find() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php:184
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP  20. Cake\ORM\Table->callFinder() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Table.php:966
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP  21. Cake\ORM\Query->applyOptions() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Table.php:1936
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP  22. Cake\ORM\Query->contain() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Query.php:700
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP  23. Cake\ORM\EagerLoader->contain() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Query.php:366
+[19-Jun-2017 17:21:16 Asia/Tokyo] PHP  24. Cake\ORM\EagerLoader->_reformatContain() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:138
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/EagerLoader.php on line 328
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP Stack trace:
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:121
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP  15. call_user_func_array:{/home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP  16. App\Controller\BookmarksController->index() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP  17. Cake\Controller\Controller->paginate() /home/ubuntu/workspace/blog_tutorial/src/Controller/BookmarksController.php:50
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP  18. Cake\Controller\Component\PaginatorComponent->paginate() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:713
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP  19. Cake\ORM\Table->find() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php:184
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP  20. Cake\ORM\Table->callFinder() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Table.php:966
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP  21. Cake\ORM\Query->applyOptions() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Table.php:1936
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP  22. Cake\ORM\Query->contain() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Query.php:700
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP  23. Cake\ORM\EagerLoader->contain() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Query.php:366
+[19-Jun-2017 17:22:15 Asia/Tokyo] PHP  24. Cake\ORM\EagerLoader->_reformatContain() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:138
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/blog_tutorial/src/Controller/ArticlesController.php on line 26
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP Stack trace:
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP  13. Cake\Http\ControllerFactory->create() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:92
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP  14. Cake\Core\App::className() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:70
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP  15. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:64
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP  16. class_exists() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP  17. spl_autoload_call() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP  18. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 18:20:34 Asia/Tokyo] PHP  19. Composer\Autoload\includeFile() /home/ubuntu/workspace/blog_tutorial/vendor/composer/ClassLoader.php:322
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/ubuntu/workspace/blog_tutorial/src/Model/Table/ArticlesTable.php on line 44
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP Stack trace:
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:121
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP  15. call_user_func_array:{/home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP  16. App\Controller\ArticlesController->add() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP  17. Cake\Controller\Controller->__get() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:23
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP  18. Cake\Controller\Controller->loadModel() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:350
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP  19. Cake\ORM\Locator\TableLocator->get() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php:112
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP  20. Cake\ORM\Locator\TableLocator->_getClassName() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:156
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP  21. Cake\Core\App::className() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:201
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP  22. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:64
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP  23. class_exists() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP  24. spl_autoload_call() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP  25. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 18:38:13 Asia/Tokyo] PHP  26. Composer\Autoload\includeFile() /home/ubuntu/workspace/blog_tutorial/vendor/composer/ClassLoader.php:322
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/ubuntu/workspace/blog_tutorial/src/Model/Table/ArticlesTable.php on line 42
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP Stack trace:
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:121
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP  15. call_user_func_array:{/home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP  16. App\Controller\ArticlesController->add() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP  17. Cake\Controller\Controller->__get() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:23
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP  18. Cake\Controller\Controller->loadModel() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:350
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP  19. Cake\ORM\Locator\TableLocator->get() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php:112
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP  20. Cake\ORM\Locator\TableLocator->_getClassName() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:156
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP  21. Cake\Core\App::className() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:201
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP  22. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:64
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP  23. class_exists() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP  24. spl_autoload_call() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP  25. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Core/App.php:152
+[19-Jun-2017 18:40:20 Asia/Tokyo] PHP  26. Composer\Autoload\includeFile() /home/ubuntu/workspace/blog_tutorial/vendor/composer/ClassLoader.php:322
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '/' in /home/ubuntu/workspace/blog_tutorial/src/Template/Articles/index.ctp on line 20
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:127
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/View/View.php:597
+[21-Jun-2017 18:33:55 Asia/Tokyo] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/View/View.php:973
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/blog_tutorial/src/Template/Articles/add.ctp on line 4
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:127
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/View/View.php:597
+[21-Jun-2017 18:39:23 Asia/Tokyo] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/View/View.php:973
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/blog_tutorial/src/Template/Articles/add.ctp on line 4
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:127
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/View/View.php:597
+[21-Jun-2017 18:40:27 Asia/Tokyo] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/View/View.php:973
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/blog_tutorial/src/Template/Articles/add.ctp on line 4
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:127
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/View/View.php:597
+[21-Jun-2017 18:42:15 Asia/Tokyo] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/View/View.php:973
+[21-Jun-2017 18:52:09 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:09 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:09 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:09 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:09 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:09 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:09 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:09 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:09 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:09 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:09 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:09 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:09 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:10 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:11 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:12 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:13 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:14 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:15 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '$routes' (T_VARIABLE) in /home/ubuntu/workspace/blog_tutorial/config/routes.php on line 57
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP Stack trace:
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:0
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/blog_tutorial/webroot/index.php:37
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Server.php:90
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP  10. Cake\Routing\Router::parse() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:51
+[21-Jun-2017 18:52:16 Asia/Tokyo] PHP  11. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/blog_tutorial/vendor/cakephp/cakephp/src/Routing/Router.php:345
